@@ -8,6 +8,7 @@
     .input-design{
         display: flex;
     }
+    
 }
 
 /* -----------medium device responsive ----------- */
@@ -23,26 +24,35 @@
         width: 100%;
         display: block;
     }
+    .header-login-design{
+        display: block;
+    }
+    .input-btn{
+        display: block;
+    }
+    
 }
 
 /* -----------small device responsive ----------- */
 @media screen and (max-width:576px) {
 
     .header-content{
-        padding-top: 20px;
+        padding-top: 50px;
     }
     .header-content h1{
         font-size: 22px;
     }
-    .header-content{
+    .header-content p{
         font-size: 11px;
     }
-    .input-design{
-        text-align: center;
-        display: inline;
-    }
-    .input-btn{
-        margin-left: 40px;
-        display: block;
-    }
+   
+   .input-text-design{
+    display: block;
+   }
+   .input-btn-ano{
+    display: block;
+   }
+   .input-btn{
+    display: none;
+   }
 }
