@@ -13,8 +13,15 @@
 
 /* -----------medium device responsive ----------- */
 @media screen and (max-width:768px) {
+    .header-logo img{
+        width: 60px;
+    }
+    .header-logo p{
+        font-size: 35px;
+    
+    }
     .header-content h1{
-        font-size: 30px;
+        font-size: 25px;
     
     }
     .input-design{
@@ -35,12 +42,19 @@
 
 /* -----------small device responsive ----------- */
 @media screen and (max-width:576px) {
-
+    .header-logo img{
+        width: 50px;
+    }
+    .header-logo p{
+        font-size: 30px;
+    
+    }
+      
     .header-content{
-        padding-top: 50px;
+        padding-top: 60px;
     }
     .header-content h1{
-        font-size: 22px;
+        font-size: 20px;
     }
     .header-content p{
         font-size: 11px;
