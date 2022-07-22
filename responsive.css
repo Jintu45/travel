@@ -1,0 +1,48 @@
+
+/* -----------top  device responsive ----------- */
+@media screen and (max-width:992px) {
+    .header-content h1{
+        font-size: 40px;
+    
+    }
+    .input-design{
+        display: flex;
+    }
+}
+
+/* -----------medium device responsive ----------- */
+@media screen and (max-width:768px) {
+    .header-content h1{
+        font-size: 30px;
+    
+    }
+    .input-design{
+        display: block;
+    }
+    .input-text {
+        width: 100%;
+        display: block;
+    }
+}
+
+/* -----------small device responsive ----------- */
+@media screen and (max-width:576px) {
+
+    .header-content{
+        padding-top: 20px;
+    }
+    .header-content h1{
+        font-size: 22px;
+    }
+    .header-content{
+        font-size: 11px;
+    }
+    .input-design{
+        text-align: center;
+        display: inline;
+    }
+    .input-btn{
+        margin-left: 40px;
+        display: block;
+    }
+}
