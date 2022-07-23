@@ -307,7 +307,7 @@ video{
 }
 .footer-bottom{
     color: #fff;
-    font-size: 18px;
+    font-size: 16px;
     border-top: 1px solid rgb(58, 40, 40);
     margin-bottom: 0;
     padding-top: 25px;
@@ -315,7 +315,7 @@ video{
 .footer-bottom a{
     text-decoration: none;
     color: #ff5400;
-    font-size: 22px;
+    font-size: 20px;
     transition: .5s;
     font-weight: 600;
 }
