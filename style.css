@@ -265,18 +265,21 @@ video{
 /* --------------------------footer section design---------
 ----------------------------------------------------------------------- */
 .footer-section{
-    background: #311267;
+    /* background: #311267; */
+    /* background-image: linear-gradient(  #da22ff  #9733ee); */
+    background: rgb(25,27,34);
+background: linear-gradient(90deg, rgba(25,27,34,0.8099614845938375) 38%, rgba(120,0,231,0.9023984593837535) 71%, rgba(63,73,177,1) 82%, rgba(199,67,254,0.8883928571428571) 93%);
 }
 .footer-item strong{
     font-size: 16px;
-    color: rgb(163, 157, 157);
+    color: rgb(255, 255, 255);
     font-weight: 400;
     margin-top: 20px;
 }
 .footer-item{}
 .footer-item h2{
     color: #cfcccc;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: 400;
     border-bottom: 1px solid rgb(37, 20, 55);
     padding: 15px 0;
