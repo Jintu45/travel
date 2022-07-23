@@ -5,7 +5,10 @@
     .input-design{
         display: flex;
     }
-   
+    .header-content h1 {
+        font-size: 65px;
+        font-weight: 400;
+    }
 }
 
 /* -----------medium device responsive ----------- */
@@ -31,7 +34,10 @@
     .input-btn{
         display: block;
     }
-    
+    .header-content h1 {
+        font-size: 55px;
+        font-weight: 400;
+    }
 
 
 }
@@ -61,6 +67,9 @@
    }
    .input-btn{
     display: none;
+   }
+   .display1{
+    font-size: 40px;
    }
 
    /* ------------feature section design---------
