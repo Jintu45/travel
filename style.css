@@ -219,8 +219,9 @@ video{
 /* ---------------------videos section design-------------
 ----------------------------------------------------------------- */
 .videos-item{
-    border: 1px dotted #ddd;
-    padding: 10px;
+    padding:20px 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    border-radius: 8px;
 }
 .videos-item h2{
     color: #347a7f;
@@ -228,4 +229,36 @@ video{
 .videos-item p{
     font-size: 16px;
     color: #070018;
+}
+
+/* ------------------------friends review section design ------------
+-------------------------------------------------------------------------- */
+.chill-icon{
+    font-size: 60px;
+    color: #655b5b;
+    font-weight: 500;
+}
+.review-team{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding:50px 10px;
+    position: relative;
+    margin-bottom: 40px;
+}
+.review-content{
+    
+}
+.review-content p{
+    font-size: 14px;
+    color: #555353;
+}
+.review-img{
+    text-align: center;
+}
+.review-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: -35px;
+    left: 140px;
 }
