@@ -114,9 +114,9 @@ img{
     line-height: 60px;
     text-align: center;
     border-radius: 50%;
-    position: absolute;
+    /* position: absolute; */
     left: 10px;
-    top: 140px;
+    /* top: 140px; */
 }
 .feature-rating {
     width: 130px;
@@ -127,7 +127,7 @@ img{
     right: 0;
     text-align: center;
     border-radius: 5px;
-    top: 144px;
+   /* top: 144px; */
 }
 .feature-content {
     padding: 0 12px;
@@ -135,7 +135,7 @@ img{
 }
 .feature-content h3 {
     font-size: 28px;
-    margin-top: 30px;
+    margin-top: 10px;
     color: #311267;
 }
 .feature-content p {
@@ -168,9 +168,8 @@ img{
     position: absolute;
     color: #f61313;
     top: 50%;
-   padding-left: 50px;
-    transition: 1s;
-    display: block;
+   padding-left: 55px;
+    transition: 1s ease-in-out;
 }
 .memory-img:hover h3 {
     transform: scale(0.8);
