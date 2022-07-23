@@ -35,10 +35,12 @@
         display: block;
     }
     .header-content h1 {
-        font-size: 55px;
+        font-size: 40px;
         font-weight: 400;
     }
-
+    h1.display1 {
+        font-size: 60px;
+    }
 
 }
 
