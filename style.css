@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Rubik', sans-serif;
 }
 img{
-    max-width: 100%;
+    width: 100%;
 }
 
 
@@ -16,6 +16,7 @@ img{
     background-image: url(img/cover.jpeg);
     width: 100%;
     height: 100vh;
+    background-attachment: fixed;
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -92,4 +93,85 @@ img{
     padding: 9px 35px;
     background: #ff5e36;
     color: #fff;
+}
+
+/* ----------------------------feature section design---------
+-------------------------------------------------------------------- */
+.feature-item{
+    position: relative;
+    border-radius: 7px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.feature-img img{
+    border-radius: 7px;
+}
+.feature-price h2 {
+    width: 60px;
+    height: 60px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background: #655b5b;
+    line-height: 60px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    left: 10px;
+    top: 140px;
+}
+.feature-rating {
+    width: 130px;
+    height: 30px;
+    color: #ffa100;
+    background: #070018;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    border-radius: 5px;
+    top: 144px;
+}
+.feature-content {
+    padding: 0 12px;
+    text-align: justify;
+}
+.feature-content h3 {
+    font-size: 28px;
+    margin-top: 30px;
+    color: #311267;
+}
+.feature-content p {
+    font-size: 15px;
+    color: #555353;
+}
+.feature-bottom span {
+    margin-right: 4px;
+    color: darkblue;
+    margin-left: 2px;
+}
+.feature-bottom p {
+    font-size: 14px;
+}
+
+/* --------------------memory image----------------
+--------------------------------------------------------- */
+.memory-img{
+    position: relative;
+}
+.memory-img img{
+    border-radius: 8px;
+    transition:1s ease-in-out;
+    cursor: pointer;
+}
+.memory-img:hover img {
+    transform: scale(1.1);
+}
+.memory-img h3 {
+    position: absolute;
+    color: #f61313;
+    top: 50%;
+   padding-left: 50px;
+    transition: 1s;
+    display: block;
+}
+.memory-img:hover h3 {
+    transform: scale(0.8);
 }
