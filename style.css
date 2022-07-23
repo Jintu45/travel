@@ -8,7 +8,10 @@ h1, h2, h3, h4, h5, h6{
 img{
     width: 100%;
 }
-
+video{
+    width: 100%;
+    border-radius: 5px;
+}
 
 /* ------------------------header-section design-----
 ---------------------------------------------------------- */
@@ -173,4 +176,56 @@ img{
 }
 .memory-img:hover h3 {
     transform: scale(0.8);
+}
+/* ---------------------------------banner section design-----
+-------------------------------------------------------------------- */
+.banner-section{
+    background-image: url(place/banner.jpg);
+    padding: 100px 0px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.highlight-banner {
+    padding: 80px 0px;
+    background: #171414a1;
+    color: #fff;
+}
+.banner-btn {
+    text-align: center;
+    padding-top: 40px;
+}
+.banner-btn a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 8px 15px;
+    border-radius: 8px;
+    transition: .5s;
+    font-weight: 600;
+}
+.banner-btn a:hover{
+    color: #070018;
+    background: navajowhite;
+}
+.banner-title p {
+    text-align: justify;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 35px;
+    color: #cfcccc;
+}
+/* ---------------------videos section design-------------
+----------------------------------------------------------------- */
+.videos-item{
+    border: 1px dotted #ddd;
+    padding: 10px;
+}
+.videos-item h2{
+    color: #347a7f;
+}
+.videos-item p{
+    font-size: 16px;
+    color: #070018;
 }
