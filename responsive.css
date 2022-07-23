@@ -1,10 +1,7 @@
 
 /* -----------top  device responsive ----------- */
 @media screen and (max-width:992px) {
-    .header-content h1{
-        font-size: 40px;
-    
-    }
+
     .input-design{
         display: flex;
     }
@@ -20,10 +17,7 @@
         font-size: 35px;
     
     }
-    .header-content h1{
-        font-size: 25px;
-    
-    }
+
     .input-design{
         display: block;
     }
@@ -54,9 +48,6 @@
       
     .header-content{
         padding-top: 60px;
-    }
-    .header-content h1{
-        font-size: 20px;
     }
     .header-content p{
         font-size: 11px;
