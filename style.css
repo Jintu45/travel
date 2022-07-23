@@ -239,10 +239,10 @@ video{
     font-weight: 500;
 }
 .review-team{
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
-    padding:50px 10px;
-    position: relative;
+    box-shadow: rgba(222, 179, 179, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+    padding:20px 10px;
     margin-bottom: 40px;
+    /* position: relative; */
 }
 .review-content{
     
@@ -258,7 +258,67 @@ video{
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    position: absolute;
-    bottom: -35px;
-    left: 140px;
+    /* position: absolute;
+     bottom: -35px;
+    left: 140px;  */
+}
+/* --------------------------footer section design---------
+----------------------------------------------------------------------- */
+.footer-section{
+    background: #311267;
+}
+.footer-item strong{
+    font-size: 16px;
+    color: rgb(163, 157, 157);
+    font-weight: 400;
+    margin-top: 20px;
+}
+.footer-item{}
+.footer-item h2{
+    color: #cfcccc;
+    font-size: 25px;
+    font-weight: 400;
+    border-bottom: 1px solid rgb(37, 20, 55);
+    padding: 15px 0;
+}
+.footer-item ul{
+    list-style: none;
+}
+.footer-item ul li{
+    padding:10px 0px;
+}
+.footer-item ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+   
+}
+.footer-item ul li span {
+    color: #e5e5e5;
+    background: rgb(255, 92, 32);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 5px;
+    font-size: 22px;
+}
+.footer-bottom{
+    color: #fff;
+    font-size: 18px;
+    border-top: 1px solid rgb(58, 40, 40);
+    margin-bottom: 0;
+    padding-top: 25px;
+}
+.footer-bottom a{
+    text-decoration: none;
+    color: #ff5400;
+    font-size: 22px;
+    transition: .5s;
+    font-weight: 600;
+}
+.footer-bottom a:hover{
+    letter-spacing: 1px;
 }

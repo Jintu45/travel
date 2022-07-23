@@ -8,9 +8,7 @@
     .input-design{
         display: flex;
     }
-    .review-img img {
-        left: 310px;
-    }
+   
 }
 
 /* -----------medium device responsive ----------- */
@@ -41,9 +39,7 @@
     }
     
 
-    .review-img img {
-        left: 220px;
-    }
+
 }
 
 /* -----------small device responsive ----------- */
