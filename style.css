@@ -233,10 +233,18 @@ video{
 
 /* ------------------------friends review section design ------------
 -------------------------------------------------------------------------- */
-.chill-icon{
+.chill-icon {
     font-size: 60px;
     color: #655b5b;
     font-weight: 500;
+    width: 80px;
+    height: 80px;
+    background: #ff9e9e;
+    display: inline-block;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 .review-team{
     box-shadow: rgba(222, 179, 179, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
